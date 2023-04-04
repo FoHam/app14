@@ -60,6 +60,11 @@ insert into code (code_id,decode,pcode_id,useyn) values ('M0101','일반','M01',
 insert into code (code_id,decode,pcode_id,useyn) values ('M0102','우수','M01','Y');
 insert into code (code_id,decode,pcode_id,useyn) values ('M01A1','관리자1','M01','Y');
 insert into code (code_id,decode,pcode_id,useyn) values ('M01A2','관리자2','M01','Y');
+
+insert into code (code_id,decode,pcode_id,useyn) values('F01','첨부파일',null,'Y');
+insert into code (code_id,decode,pcode_id,useyn) values('F010301','상품관리_일반','F01','Y');
+insert into code (code_id,decode,pcode_id,useyn) values('F010302','상품관리_이미지','F01','Y');
+
 commit;
 
 -------
